@@ -45,10 +45,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F                &kp P                       &kp B       &kp J      &kp L                      &kp U                &kp Y       &kp SEMICOLON  &kp BSPC
-&kp ESCAPE    &kp A  &kp R  &homeRowMod LCTRL S  &homeRowMod LEFT_SHIFT T    &kp G       &kp M      &homeRowMod RIGHT_SHIFT N  &homeRowMod RCTRL E  &kp I       &kp O          &kp SQT
-&kp LEFT_ALT  &kp X  &kp C  &kp D                &kp V                       &kp Z       &kp K      &kp H                      &kp COMMA            &kp PERIOD  &kp SLASH      &kp LEFT_PARENTHESIS
-                            &kp DELETE           &hold_tapForLayer 1 DELETE  &kp LCMD    &kp SPACE  &mo 2                      &kp ENTER
+&kp TAB       &kp Q  &kp W  &kp F                &kp P                     &kp B       &kp J      &kp L                      &kp U                &kp Y       &kp SEMICOLON  &kp BSPC
+&kp ESCAPE    &kp A  &kp R  &homeRowMod LCTRL S  &homeRowMod LEFT_SHIFT T  &kp G       &kp M      &homeRowMod RIGHT_SHIFT N  &homeRowMod RCTRL E  &kp I       &kp O          &kp SQT
+&kp LEFT_ALT  &kp X  &kp C  &kp D                &kp V                     &kp Z       &kp K      &kp H                      &kp COMMA            &kp PERIOD  &kp SLASH      &kp LEFT_PARENTHESIS
+                            &kp DELETE           &mo 1                     &kp LCMD    &kp SPACE  &mo 2                      &kp ENTER
             >;
         };
 
