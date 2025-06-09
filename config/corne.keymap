@@ -45,10 +45,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F                &kp P                     &kp B       &kp J      &kp L                      &kp U                &kp Y       &kp SEMICOLON  &kp BSPC
-&kp ESCAPE    &kp A  &kp R  &homeRowMod LCTRL S  &homeRowMod LEFT_SHIFT T  &kp G       &kp M      &homeRowMod RIGHT_SHIFT N  &homeRowMod RCTRL E  &kp I       &kp O          &kp SQT
-&kp LEFT_ALT  &kp X  &kp C  &kp D                &kp V                     &kp Z       &kp K      &kp H                      &kp COMMA            &kp PERIOD  &kp SLASH      &kp LEFT_PARENTHESIS
-                            &kp DELETE           &mo 1                     &kp LCMD    &kp SPACE  &mo 2                      &kp ENTER
+&kp TAB       &kp Q  &kp W                   &kp F                &kp P                     &kp B        &kp J      &kp L                      &kp U                &kp Y                   &kp SEMICOLON  &kp BSPC
+&kp ESCAPE    &kp A  &homeRowMod LEFT_GUI R  &homeRowMod LCTRL S  &homeRowMod LEFT_SHIFT T  &kp G        &kp M      &homeRowMod RIGHT_SHIFT N  &homeRowMod RCTRL E  &homeRowMod LEFT_GUI I  &kp O          &kp SQT
+&kp LEFT_ALT  &kp X  &kp C                   &kp D                &kp V                     &kp Z        &kp K      &kp H                      &kp COMMA            &kp PERIOD              &kp SLASH      &kp LEFT_PARENTHESIS
+                                             &kp DELETE           &mo 1                     &kp ENTER    &kp SPACE  &mo 2                      &kp ENTER
             >;
         };
 
@@ -61,10 +61,10 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                &bt BT_SEL 3                     &bt BT_SEL 4      &trans        &trans                     &trans                &trans   &trans   &trans
-&trans      &kp NUMBER_1  &kp NUMBER_2  &homeRowMod LCTRL NUMBER_3  &homeRowMod LEFT_SHIFT NUMBER_4  &kp N5            &kp NUMBER_6  &homeRowMod LEFT_SHIFT N7  &homeRowMod RCTRL N8  &kp N9   &kp N0   &trans
-&kp F1      &kp F2        &kp F3        &kp F4                      &kp F5                           &kp F6            &kp F7        &kp F8                     &kp F9                &kp F10  &kp F11  &kp F12
-                                        &kp LGUI                    &trans                           &kp LEFT_SHIFT    &kp SPACE     &trans                     &kp RCTRL
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1                   &bt BT_SEL 2                &bt BT_SEL 3                     &bt BT_SEL 4    &trans        &trans                     &trans                &trans                   &trans   &trans
+&trans      &kp NUMBER_1  &homeRowMod LEFT_GUI NUMBER_2  &homeRowMod LCTRL NUMBER_3  &homeRowMod LEFT_SHIFT NUMBER_4  &kp N5          &kp NUMBER_6  &homeRowMod LEFT_SHIFT N7  &homeRowMod RCTRL N8  &homeRowMod LEFT_GUI N9  &kp N0   &trans
+&kp F1      &kp F2        &kp F3                         &kp F4                      &kp F5                           &kp F6          &kp F7        &kp F8                     &kp F9                &kp F10                  &kp F11  &kp F12
+                                                         &trans                      &trans                           &trans          &trans        &trans                     &trans
             >;
         };
 
@@ -77,19 +77,19 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &trans  &kp GRAVE  &kp LEFT_BRACKET  &kp MINUS       &trans       &trans     &kp EQUAL  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans
-&trans  &trans  &kp TILDE  &kp LEFT_BRACE    &kp UNDERSCORE  &trans       &trans     &kp PLUS   &kp RIGHT_BRACE    &kp PIPE       &trans  &trans
-&trans  &trans  &trans     &trans            &trans          &trans       &trans     &trans     &trans             &trans         &trans  &trans
-                           &kp LGUI          &trans          &kp LSHFT    &kp SPACE  &trans     &kp RCTRL
+&trans  &trans  &kp GRAVE  &kp LEFT_BRACKET  &kp MINUS       &trans    &trans  &kp EQUAL  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans
+&trans  &trans  &kp TILDE  &kp LEFT_BRACE    &kp UNDERSCORE  &trans    &trans  &kp PLUS   &kp RIGHT_BRACE    &kp PIPE       &trans  &trans
+&trans  &trans  &trans     &trans            &trans          &trans    &trans  &trans     &trans             &trans         &trans  &trans
+                           &trans            &trans          &trans    &trans  &trans     &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_STOP  &trans    &kp DOWN      &kp RIGHT       &trans  &trans  &trans  &trans
-&trans  &trans  &kp PAGE_DOWN      &kp PAGE_UP      &trans      &trans    &trans        &trans          &trans  &trans  &trans  &trans
-&trans  &trans  &kp C_AC_HOME      &kp END          &trans      &trans    &kp UP_ARROW  &kp LEFT_ARROW  &trans  &trans  &trans  &trans
-                                   &trans           &trans      &trans    &trans        &trans          &trans
+&bootloader  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_STOP  &trans    &kp DOWN      &kp RIGHT       &trans  &trans  &trans  &trans
+&trans       &trans  &kp PAGE_DOWN      &kp PAGE_UP      &trans      &trans    &trans        &trans          &trans  &trans  &trans  &trans
+&trans       &trans  &kp C_AC_HOME      &kp END          &trans      &trans    &kp UP_ARROW  &kp LEFT_ARROW  &trans  &trans  &trans  &trans
+                                        &trans           &trans      &trans    &trans        &trans          &trans
             >;
         };
     };
