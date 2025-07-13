@@ -25,13 +25,13 @@
         Period {
             bindings = <&kp PERIOD>;
             key-positions = <22 21>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Commna {
             bindings = <&kp COMMA>;
             key-positions = <21 20>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Bluetooth_Layer {
@@ -42,49 +42,49 @@
         Colon {
             bindings = <&kp COLON>;
             key-positions = <21 22 19>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         SemiColon {
             bindings = <&kp SEMICOLON>;
             key-positions = <21 19 20>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Apostrophe {
             bindings = <&kp SQT>;
             key-positions = <8 21>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <21 7>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Equal {
             bindings = <&kp EQUAL>;
             key-positions = <7 6>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <31 30>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Minus {
             bindings = <&kp MINUS>;
             key-positions = <19 18>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
 
         Plus {
             bindings = <&kp PLUS>;
             key-positions = <20 19 18>;
-            timeout-ms = <20>;
+            timeout-ms = <35>;
         };
     };
 
@@ -100,10 +100,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J      &kp L          &kp U       &kp Y       &kp SEMICOLON  &none
-&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T     &kp G             &kp M      &kp N          &kp E       &kp I       &kp O          &kp SQT
-&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K      &kp H          &kp COMMA   &kp PERIOD  &kp SLASH      &none
-                                &kp ESCAPE  &kp CAPS  &kp LEFT_SHIFT    &kp SPACE  &kp BACKSPACE  &kp DELETE
+&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J          &kp L      &kp U       &kp Y       &kp SEMICOLON  &kp BACKSPACE
+&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T     &kp G             &kp M          &kp N      &kp E       &kp I       &kp O          &kp SQT
+&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K          &kp H      &kp COMMA   &kp PERIOD  &kp SLASH      &none
+                                &kp ESCAPE  &kp CAPS  &kp LEFT_SHIFT    &kp BACKSPACE  &kp SPACE  &kp DELETE
             >;
         };
 
