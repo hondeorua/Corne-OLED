@@ -83,14 +83,13 @@
 
         Plus {
             bindings = <&kp PLUS>;
-            key-positions = <20 19 18>;
+            key-positions = <18 21>;
             timeout-ms = <35>;
         };
 
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <21 20 22>;
-            timeout-ms = <35>;
         };
 
         Tab {
@@ -101,14 +100,13 @@
 
         FwdSlash {
             bindings = <&kp SLASH>;
-            key-positions = <31 20 9>;
+            key-positions = <31 20>;
             timeout-ms = <35>;
         };
 
         BackSlash {
             bindings = <&kp BACKSLASH>;
             key-positions = <20 33 7>;
-            timeout-ms = <35>;
         };
 
         Umbrella {
@@ -182,6 +180,16 @@
         Hash {
             bindings = <&kp HASH>;
             key-positions = <6 7 8>;
+        };
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <7 9 8>;
+        };
+
+        Insert {
+            bindings = <&kp INSERT>;
+            key-positions = <41 40>;
         };
     };
 
