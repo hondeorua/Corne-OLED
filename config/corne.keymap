@@ -86,6 +86,103 @@
             key-positions = <20 19 18>;
             timeout-ms = <35>;
         };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <21 20 22>;
+            timeout-ms = <35>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <20 19>;
+            timeout-ms = <35>;
+        };
+
+        FwdSlash {
+            bindings = <&kp SLASH>;
+            key-positions = <31 20 9>;
+            timeout-ms = <35>;
+        };
+
+        BackSlash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <20 33 7>;
+            timeout-ms = <35>;
+        };
+
+        Umbrella {
+            bindings = <&kp CARET>;
+            key-positions = <19 8 21>;
+            timeout-ms = <35>;
+        };
+
+        Smaller {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <19 8>;
+            timeout-ms = <35>;
+        };
+
+        Larger {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <7 20>;
+            timeout-ms = <35>;
+        };
+
+        VerticalLink {
+            bindings = <&kp PIPE>;
+            key-positions = <8 19 40>;
+        };
+
+        Gay {
+            bindings = <&kp TILDE>;
+            key-positions = <19 10>;
+        };
+
+        Grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <6 19>;
+        };
+
+        Percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <7 33>;
+        };
+
+        Exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <7 8 21>;
+        };
+
+        QuestionMark {
+            bindings = <&kp QUESTION>;
+            key-positions = <19 20 9>;
+        };
+
+        Money {
+            bindings = <&kp DOLLAR>;
+            key-positions = <31 32 21>;
+        };
+
+        At {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <7 20 21>;
+        };
+
+        Asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <30 31 32>;
+        };
+
+        And-Ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <20 18>;
+        };
+
+        Hash {
+            bindings = <&kp HASH>;
+            key-positions = <6 7 8>;
+        };
     };
 
     keymap {
@@ -100,10 +197,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J          &kp L      &kp U       &kp Y       &kp SEMICOLON  &kp BACKSPACE
-&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T     &kp G             &kp M          &kp N      &kp E       &kp I       &kp O          &kp SQT
-&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K          &kp H      &kp COMMA   &kp PERIOD  &kp SLASH      &none
-                                &kp ESCAPE  &kp CAPS  &kp LEFT_SHIFT    &kp BACKSPACE  &kp SPACE  &kp DELETE
+&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J      &kp L      &kp U       &kp Y       &kp SEMICOLON  &kp BACKSPACE
+&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T     &kp G             &kp M      &kp N      &kp E       &kp I       &kp O          &kp SQT
+&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K      &kp H      &kp COMMA   &kp PERIOD  &kp SLASH      &none
+                                &kp ESCAPE  &kp CAPS  &kp LEFT_SHIFT    &kp ENTER  &kp SPACE  &kp DELETE
             >;
         };
 
