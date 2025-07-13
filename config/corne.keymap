@@ -20,6 +20,16 @@
             bindings = <&mo 2>;
             key-positions = <1 2>;
         };
+
+        Period {
+            bindings = <&kp PERIOD>;
+            key-positions = <22 21>;
+        };
+
+        Commna {
+            bindings = <&kp COMMA>;
+            key-positions = <21 20>;
+        };
     };
 
     keymap {
