@@ -24,7 +24,7 @@
 
         Period {
             bindings = <&kp PERIOD>;
-            key-positions = <22 21>;
+            key-positions = <20 19>;
             timeout-ms = <35>;
         };
 
@@ -94,7 +94,7 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <20 19>;
+            key-positions = <22 21>;
             timeout-ms = <35>;
         };
 
