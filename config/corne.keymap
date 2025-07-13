@@ -36,7 +36,7 @@
 
         Bluetooth_Layer {
             bindings = <&mo 3>;
-            key-positions = <4 3>;
+            key-positions = <16 15 2 1>;
         };
 
         Colon {
