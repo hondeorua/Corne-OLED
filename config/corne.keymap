@@ -45,10 +45,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F                &kp P                     &kp B        &kp J      &kp L                      &kp U                &kp Y       &kp SEMICOLON  &kp BSPC
+&kp TAB       &kp Q  &kp W  &kp F                &kp P                     &kp B        &kp J      &kp L                      &kp U                &kp Y       &kp SEMICOLON  &none
 &kp ESCAPE    &kp A  &kp R  &homeRowMod LCTRL S  &homeRowMod LEFT_SHIFT T  &kp G        &kp M      &homeRowMod RIGHT_SHIFT N  &homeRowMod RCTRL E  &kp I       &kp O          &kp SQT
 &kp LEFT_ALT  &kp Z  &kp X  &kp C                &kp D                     &kp V        &kp K      &kp H                      &kp COMMA            &kp PERIOD  &kp SLASH      &kp LEFT_PARENTHESIS
-                            &kp DELETE           &mo 1                     &kp ENTER    &kp SPACE  &mo 2                      &kp RIGHT_GUI
+                            &kp DELETE           &kp CAPS                  &kp ENTER    &kp SPACE  &mo 0                      &kp RIGHT_GUI
             >;
         };
 
@@ -65,31 +65,6 @@
 &trans      &kp NUMBER_1  &kp NUMBER_2  &homeRowMod LCTRL NUMBER_3  &homeRowMod LEFT_SHIFT NUMBER_4  &kp N5          &kp NUMBER_6  &homeRowMod LEFT_SHIFT N7  &homeRowMod RCTRL N8  &kp N9   &kp N0   &kp F12
 &kp F1      &kp F2        &kp F3        &kp F4                      &kp F5                           &kp F6          &kp F7        &kp F8                     &kp F9                &kp F10  &kp F11  &kp RIGHT_PARENTHESIS
                                         &trans                      &trans                           &trans          &trans        &trans                     &trans
-            >;
-        };
-
-        raise_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            display-name = "Raise";
-            bindings = <
-&trans  &trans  &kp GRAVE  &kp LEFT_BRACKET  &kp MINUS       &trans    &trans  &kp EQUAL  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans  &trans
-&trans  &trans  &kp TILDE  &kp LEFT_BRACE    &kp UNDERSCORE  &trans    &trans  &kp PLUS   &kp RIGHT_BRACE    &kp PIPE       &trans  &trans
-&trans  &trans  &trans     &trans            &trans          &trans    &trans  &trans     &trans             &trans         &trans  &trans
-                           &trans            &trans          &trans    &trans  &trans     &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&bootloader  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_STOP  &trans    &kp DOWN      &kp RIGHT       &trans  &trans  &trans  &trans
-&trans       &trans  &kp PAGE_DOWN      &kp PAGE_UP      &kp CAPS    &trans    &trans        &trans          &trans  &trans  &trans  &trans
-&trans       &trans  &kp C_AC_HOME      &kp END          &trans      &trans    &kp UP_ARROW  &kp LEFT_ARROW  &trans  &trans  &trans  &trans
-                                        &trans           &trans      &trans    &trans        &trans          &trans
             >;
         };
     };
