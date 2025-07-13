@@ -8,27 +8,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        homeRowMod: homeRowMod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROWMOD";
-            bindings = <&kp>, <&kp>;
+    combos {
+        compatible = "zmk,combos";
 
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            flavor = "balanced";
-            quick-tap-ms = <175>;
+        Num_layer {
+            bindings = <&mo 1>;
+            key-positions = <15 16>;
         };
 
-        hold_tapForLayer: hold_tapForLayer {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAPFORLAYER";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            flavor = "hold-preferred";
-            quick-tap-ms = <183>;
+        Fn_Layer {
+            bindings = <&mo 2>;
+            key-positions = <1 2>;
         };
     };
 
@@ -44,10 +34,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LEFT_ALT  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J      &kp L          &kp U       &kp Y       &kp SEMICOLON  &none
-&kp LCTRL     &kp A  &kp R  &kp S       &kp T     &kp G             &kp M      &kp N          &kp E       &kp I       &kp O          &kp SQT
-&kp LEFT_GUI  &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K      &kp H          &kp COMMA   &kp PERIOD  &kp SLASH      &none
-                            &kp ESCAPE  &kp CAPS  &kp LEFT_SHIFT    &kp SPACE  &kp BACKSPACE  &kp DELETE
+&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J      &kp L          &kp U       &kp Y       &kp SEMICOLON  &none
+&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T     &kp G             &kp M      &kp N          &kp E       &kp I       &kp O          &kp SQT
+&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K      &kp H          &kp COMMA   &kp PERIOD  &kp SLASH      &none
+                                &kp ESCAPE  &kp CAPS  &kp LEFT_SHIFT    &kp SPACE  &kp BACKSPACE  &kp DELETE
             >;
         };
 
@@ -57,6 +47,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
                         &trans  &trans  &trans    &kp N0  &trans  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
