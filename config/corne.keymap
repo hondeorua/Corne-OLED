@@ -36,7 +36,55 @@
 
         Bluetooth_Layer {
             bindings = <&mo 3>;
-            key-positions = <1 2 15 16>;
+            key-positions = <4 3>;
+        };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <21 22 19>;
+            timeout-ms = <20>;
+        };
+
+        SemiColon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <21 19 20>;
+            timeout-ms = <20>;
+        };
+
+        Apostrophe {
+            bindings = <&kp SQT>;
+            key-positions = <8 21>;
+            timeout-ms = <20>;
+        };
+
+        Quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <21 7>;
+            timeout-ms = <20>;
+        };
+
+        Equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <7 6>;
+            timeout-ms = <20>;
+        };
+
+        Underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <31 30>;
+            timeout-ms = <20>;
+        };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <19 18>;
+            timeout-ms = <20>;
+        };
+
+        Plus {
+            bindings = <&kp PLUS>;
+            key-positions = <20 19 18>;
+            timeout-ms = <20>;
         };
     };
 
