@@ -191,26 +191,6 @@
             bindings = <&kp INSERT>;
             key-positions = <41 40>;
         };
-
-        Prev {
-            bindings = <&kp C_PREVIOUS>;
-            key-positions = <10 11>;
-        };
-
-        Next {
-            bindings = <&kp C_NEXT>;
-            key-positions = <23 22>;
-        };
-
-        Stop {
-            bindings = <&kp C_STOP>;
-            key-positions = <35 34>;
-        };
-
-        Mute {
-            bindings = <&kp K_MUTE>;
-            key-positions = <35 34 0>;
-        };
     };
 
     keymap {
