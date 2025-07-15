@@ -41,7 +41,7 @@
 
         Colon {
             bindings = <&kp COLON>;
-            key-positions = <21 22 19>;
+            key-positions = <21 19>;
             timeout-ms = <35>;
         };
 
