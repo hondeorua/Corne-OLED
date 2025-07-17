@@ -94,7 +94,7 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <22 21>;
+            key-positions = <4 3>;
             timeout-ms = <35>;
         };
 
