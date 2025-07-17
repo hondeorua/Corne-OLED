@@ -12,8 +12,8 @@
     combos {
         compatible = "zmk,combos";
 
-        Num_layer {
-            bindings = <&mo 1>;
+        Caps {
+            bindings = <&kp CAPSLOCK>;
             key-positions = <15 16>;
         };
 
@@ -235,10 +235,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P     &kp B             &kp J      &kp L       &kp U         &kp Y     &kp BACKSPACE  &kp C_MUTE
-&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T     &kp G             &kp M      &kp N       &kp E         &kp I     &kp O          &kp ENTER
-&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D     &kp V             &kp K      &kp H       &kp LEFT      &kp DOWN  &kp UP_ARROW   &kp RIGHT
-                                &kp DELETE  &kp CAPS  &kp LEFT_SHIFT    &kp SPACE  &kp ESCAPE  &kp LEFT_GUI
+&kp LEFT_CONTROL  &kp Q  &kp W  &kp F       &kp P  &kp B             &kp J      &kp L       &kp U         &kp Y     &kp BACKSPACE  &kp C_MUTE
+&kp LEFT_ALT      &kp A  &kp R  &kp S       &kp T  &kp G             &kp M      &kp N       &kp E         &kp I     &kp O          &kp ENTER
+&kp LEFT_GUI      &kp Z  &kp X  &kp C       &kp D  &kp V             &kp K      &kp H       &kp LEFT      &kp DOWN  &kp UP_ARROW   &kp RIGHT
+                                &kp DELETE  &mo 1  &kp LEFT_SHIFT    &kp SPACE  &kp ESCAPE  &kp LEFT_GUI
             >;
         };
 
