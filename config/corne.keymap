@@ -22,18 +22,6 @@
             key-positions = <1 2>;
         };
 
-        Period {
-            bindings = <&kp PERIOD>;
-            key-positions = <20 19>;
-            timeout-ms = <35>;
-        };
-
-        Commna {
-            bindings = <&kp COMMA>;
-            key-positions = <21 20>;
-            timeout-ms = <35>;
-        };
-
         Bluetooth_Layer {
             bindings = <&mo 3>;
             key-positions = <16 15 2 1>;
@@ -47,7 +35,7 @@
 
         SemiColon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <21 19 20>;
+            key-positions = <19 20>;
             timeout-ms = <35>;
         };
 
@@ -65,7 +53,7 @@
 
         Equal {
             bindings = <&kp EQUAL>;
-            key-positions = <7 6>;
+            key-positions = <20 21>;
             timeout-ms = <35>;
         };
 
@@ -85,11 +73,6 @@
             bindings = <&kp PLUS>;
             key-positions = <18 21>;
             timeout-ms = <35>;
-        };
-
-        Enter {
-            bindings = <&kp ENTER>;
-            key-positions = <21 20 22>;
         };
 
         Tab {
