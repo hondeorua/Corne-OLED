@@ -14,7 +14,7 @@
 
         Caps {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
         };
 
         Fn_Layer {
