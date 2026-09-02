@@ -89,7 +89,7 @@
 
         BackSlash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <20 33 7>;
+            key-positions = <19 32>;
         };
 
         Umbrella {
